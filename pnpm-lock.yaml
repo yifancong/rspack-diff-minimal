@@ -22,7 +22,7 @@ importers:
         version: 2.5.1
       css-loader:
         specifier: ^6.9.0
-        version: 6.11.0(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+        version: 6.11.0(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       less-loader:
         specifier: ^11.1.4
         version: 11.1.4(less@4.4.2)(webpack@5.103.0)
@@ -35,16 +35,16 @@ importers:
     devDependencies:
       '@rsdoctor/rspack-plugin':
         specifier: 1.3.11
-        version: 1.3.11(@rsbuild/core@1.5.12)(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+        version: 1.3.11(@rsbuild/core@1.5.12)(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       '@rspack/binding':
-        specifier: link:/Users/congzhe/Documents/2_workspace/rspack/crates/node_binding
-        version: link:../../2_workspace/rspack/crates/node_binding
+        specifier: link:../rspack/crates/node_binding
+        version: link:../rspack/crates/node_binding
       '@rspack/cli':
-        specifier: link:/Users/congzhe/Documents/2_workspace/rspack/packages/rspack-cli
-        version: link:../../2_workspace/rspack/packages/rspack-cli
+        specifier: link:../rspack/packages/rspack-cli
+        version: link:../rspack/packages/rspack-cli
       '@rspack/core':
-        specifier: link:/Users/congzhe/Documents/2_workspace/rspack/packages/rspack
-        version: link:../../2_workspace/rspack/packages/rspack
+        specifier: link:../rspack/packages/rspack
+        version: link:../rspack/packages/rspack
       '@rspack/plugin-react-refresh':
         specifier: ^1.5.2
         version: 1.5.3(react-refresh@0.14.2)
@@ -3061,13 +3061,13 @@ snapshots:
 
   '@rsdoctor/client@1.3.11': {}
 
-  '@rsdoctor/core@1.3.11(@rsbuild/core@1.5.12)(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/core@1.3.11(@rsbuild/core@1.5.12)(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
       '@rsbuild/plugin-check-syntax': 1.5.0(@rsbuild/core@1.5.12)
-      '@rsdoctor/graph': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/sdk': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/graph': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/sdk': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       browserslist-load-config: 1.0.1
       enhanced-resolve: 5.12.0
       es-toolkit: 1.42.0
@@ -3083,10 +3083,10 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/graph@1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/graph@1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
-      '@rsdoctor/types': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       es-toolkit: 1.42.0
       path-browserify: 1.0.1
       source-map: 0.7.6
@@ -3094,15 +3094,15 @@ snapshots:
       - '@rspack/core'
       - webpack
 
-  '@rsdoctor/rspack-plugin@1.3.11(@rsbuild/core@1.5.12)(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/rspack-plugin@1.3.11(@rsbuild/core@1.5.12)(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
-      '@rsdoctor/core': 1.3.11(@rsbuild/core@1.5.12)(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/graph': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/sdk': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/core': 1.3.11(@rsbuild/core@1.5.12)(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/graph': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/sdk': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
     optionalDependencies:
-      '@rspack/core': link:../../2_workspace/rspack/packages/rspack
+      '@rspack/core': link:../rspack/packages/rspack
     transitivePeerDependencies:
       - '@rsbuild/core'
       - bufferutil
@@ -3110,12 +3110,12 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/sdk@1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/sdk@1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
       '@rsdoctor/client': 1.3.11
-      '@rsdoctor/graph': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/types': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
-      '@rsdoctor/utils': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/graph': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/utils': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       safer-buffer: 2.1.2
       socket.io: 4.8.1
       tapable: 2.2.3
@@ -3126,20 +3126,20 @@ snapshots:
       - utf-8-validate
       - webpack
 
-  '@rsdoctor/types@1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/types@1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
       '@types/connect': 3.4.38
       '@types/estree': 1.0.5
       '@types/tapable': 2.2.7
       source-map: 0.7.6
     optionalDependencies:
-      '@rspack/core': link:../../2_workspace/rspack/packages/rspack
+      '@rspack/core': link:../rspack/packages/rspack
       webpack: 5.103.0
 
-  '@rsdoctor/utils@1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)':
+  '@rsdoctor/utils@1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@rsdoctor/types': 1.3.11(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0)
+      '@rsdoctor/types': 1.3.11(@rspack/core@rspack+packages+rspack)(webpack@5.103.0)
       '@types/estree': 1.0.5
       acorn: 8.15.0
       acorn-import-attributes: 1.9.5(acorn@8.15.0)
@@ -3614,7 +3614,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.2
 
-  css-loader@6.11.0(@rspack/core@..+2_workspace+rspack+packages+rspack)(webpack@5.103.0):
+  css-loader@6.11.0(@rspack/core@rspack+packages+rspack)(webpack@5.103.0):
     dependencies:
       icss-utils: 5.1.0(postcss@8.5.6)
       postcss: 8.5.6
@@ -3625,7 +3625,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.3
     optionalDependencies:
-      '@rspack/core': link:../../2_workspace/rspack/packages/rspack
+      '@rspack/core': link:../rspack/packages/rspack
       webpack: 5.103.0
 
   css-select@5.2.2:
@@ -4364,7 +4364,7 @@ snapshots:
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.15.0
       acorn-import-phases: 1.0.4(acorn@8.15.0)
-      browserslist: 4.26.3
+      browserslist: 4.28.0
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.3
       es-module-lexer: 1.7.0
