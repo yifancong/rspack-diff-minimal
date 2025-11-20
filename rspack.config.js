@@ -87,17 +87,12 @@ const config = {
     new ReactRefreshPlugin(),
     new RsdoctorRspackPlugin({
       disableClientServer: process.env.ENABLE_CLIENT_SERVER === 'false',
-      features: ['bundle', 'plugins', 'loader'],
-      mode: 'brief',
-      linter: {
-        rules: {
-          'ecma-version-check': [
-            'Warn',
-            {
-              ecmaVersion: 3,
-            },
-          ],
-        },
+      features: ['bundle'],
+      output: {
+        mode: 'brief',
+        options: {
+          type: ['json']
+        }
       },
     }),
     new rspack.HtmlRspackPlugin({
