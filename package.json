@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "@rsdoctor/rspack-plugin": "1.3.11",
-    "@rspack/binding": "link:../rspack/crates/node_binding",
-    "@rspack/core": "link:../rspack/packages/rspack",
-    "@rspack/cli": "link:../rspack/packages/rspack-cli",
+    "@rspack/binding": "link:./crates/node_binding",
+    "@rspack/core": "link:./packages/rspack",
+    "@rspack/cli": "link:./packages/rspack-cli",
     "@rspack/plugin-react-refresh": "^1.5.2",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
@@ -42,8 +42,8 @@
     ]
   },
   "overrides": {
-    "@rspack/binding": "link:../rspack/crates/node_binding",
-    "@rspack/core": "link:../rspack/packages/rspack",
-    "@rspack/cli": "link:../rspack/packages/rspack-cli"
+    "@rspack/binding": "link:./crates/node_binding",
+    "@rspack/core": "link:./packages/rspack",
+    "@rspack/cli": "link:./packages/rspack-cli"
   }
 }
